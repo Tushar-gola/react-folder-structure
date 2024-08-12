@@ -20,5 +20,8 @@ export default defineConfig({
       "features": resolve(root, "features"),
       "constants": resolve(root, "constants"),
     }
+  },
+  server: {
+    open: true
   }
 })

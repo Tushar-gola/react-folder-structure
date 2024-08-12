@@ -25,7 +25,6 @@ export const root = [
     {
         path: urls.BASE_URL,
         element: <LoginCallback />,
-
     },
     {
         path: urls.LOGIN,
@@ -36,7 +35,6 @@ export const root = [
                 element: <LoginPage />,
             }
         ]
-
     },
     {
         path: urls.DASHBOARD,
@@ -52,7 +50,5 @@ export const root = [
                 element: <DashboardPage/>,
             },
         ]
-
     }
-
 ]
